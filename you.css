@@ -1,0 +1,171 @@
+.MainContainer{
+width: 100%;
+height: auto;
+}
+.topContainer{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border: 1px solid #C6C6C6;
+    position: sticky;
+top: 0px;
+opacity: 0.91;
+}
+.menuline{
+    width: 25px;
+    
+    
+    
+}
+.top-imgcontainer{
+    display: inline-block;
+width: 50px;
+height: 70px;
+margin-top: 24px;
+margin-left: 20px;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+}
+.you-trubLogo{
+    width: 95px;
+    height: auto;
+    display: inline-block;
+  
+}
+.you-trubLogoContainer{
+    display: inline-block;
+    margin-top: 23px;
+   
+}
+.secondtopcontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+.search-box{
+width: 40%;
+height: auto;
+margin:0 auto;
+display: inline-block;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: -22px;
+}
+.TopSearch{
+    display: flex;
+width: 80%;
+height: 38px;
+border: 1px solid #C6C6C6;
+outline: none;
+padding-left: 20px;
+}
+
+.TopSearch::placeholder {
+   font-size: 17px;
+   color:  #938b8b;
+   padding-left: 24px;
+   
+}
+
+
+.Searchicon{
+    color: black;
+    padding: 11px 27px;
+    background-color: #F0F0F0;
+    display: inline-block;
+    border: 1px solid #C6C6C6;
+    font-size: 18px;
+}
+
+@media (max-width : 760px){
+      
+    
+    .Searchicon{
+       opacity: 0;
+
+    } 
+    
+    
+    .TopSearch{
+        display: none;
+    }
+  .mic{
+    position: relative;
+    right: -70%;
+   
+  }
+}
+@media (max-width : 710px){
+      
+    
+  .mic{
+    position: relative;
+    right: -60%;
+   
+  }
+}
+@media (max-width : 645px){
+      
+    
+    .mic{
+      position: relative;
+      right: -50%;
+     
+    }
+  }
+  @media (max-width : 595px){
+      
+    
+    .mic{
+      position: relative;
+      right: -39%;
+     
+    }
+  }
+  @media (max-width : 595px){
+      
+    
+    .mic{
+      position: static;
+      
+     
+    }
+  }
+.mic{
+    font-size: 19px;
+    padding: 12px 14px;
+    background-color: #F0F0F0;
+    border-radius: 30px;
+    margin-left: 6px;
+}
+.rightlogocontainer{
+width: 180px;
+height: auto;
+display: flex;
+align-items: center;
+}
+.videologotop1{
+    width: 23px;
+    height: auto;
+    margin-top: -15px;
+
+}
+.bell3{
+    font-size: 21px;
+    margin:0px 30px;
+    margin-bottom: 14px;
+   margin-right: 0px;
+  
+}
+.personlogo{
+width: 38px;
+height: auto;
+border-radius: 40px;
+margin-left: 21px;
+margin-bottom: 18px;
+margin-right: 16px;
+}

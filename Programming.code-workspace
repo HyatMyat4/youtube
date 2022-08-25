@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "..\\Programming"
+		},
+		{
+			"path": "..\\learingReact"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "learingReact"
+	},
+	"extensions": {
+		"recommendations": [
+			"ritwickdey.LiveServer"
+		]
+	}
+}

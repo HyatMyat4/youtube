@@ -1,0 +1,58 @@
+.anaimationnone{
+display: none;
+
+}
+.paddinganimation{
+    display: none;
+
+}
+.inline{
+    font-size: 20px;
+   
+}
+
+@media (max-width: 795px ){
+    .sidebar2{
+     display: none;
+    }
+ 
+ }
+.sidebar2{
+  
+    width: 70px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+   
+}
+.sidebar2none{
+    display: none;
+}
+.Home2{
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.Home2container{
+    width: 100%;
+    height: 70px;
+    
+    
+}
+.Homefont{
+   margin-top: 5px;
+    display: block;
+    font-size: 11px;
+    
+}
+.movemid{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   
+}
+.Home2container:hover{
+    background-color: #EFEFEF;
+}
